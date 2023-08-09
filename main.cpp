@@ -13,13 +13,11 @@ using namespace std;
 int main()
 {
     int a=5,b=10;
-    cout<< "before swaping "<<a<<" "<<b<<" "<<endl;
-    int temp;
-    temp=a;
-    a=b;
-    b=temp;
-     cout<< "after swaping "<<a<<" "<<b<<" "<<endl;
-    
+    cout<<"before swapping "<<a<<" "<<b<<endl;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+       cout<<"after swapping "<<a<<" "<<b<<endl;
   //  cout<<"Hello World";
 
     return 0;
