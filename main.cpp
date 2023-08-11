@@ -7,18 +7,17 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <iostream>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
     int a=5,b=10;
     cout<<"before swapping "<<a<<" "<<b<<endl;
-    a=a+b;
-    b=a-b;
-    a=a-b;
-       cout<<"after swapping "<<a<<" "<<b<<endl;
-  //  cout<<"Hello World";
+     a=a^b;
+     b=a^b;
+     a=a^b;
+    cout<<"after swapping "<<a<<" "<<b<<endl;
 
     return 0;
 }
